@@ -4,6 +4,7 @@ import axios from 'axios';
 import { object, string } from 'yup';
 import { toast, Zoom } from 'react-toastify'
 import { Link } from 'react-router-dom';
+import PIC from '../../assets/6.jpg'
 
 function SignUp() {
   const [errors, seterror] = useState("");
@@ -112,8 +113,8 @@ function SignUp() {
   return (
     <>
       <div className="overlay " >
-        <img src={`${import.meta.env.VITE_PIC}`} alt="" />
-      </div>
+        <img src={PIC} alt="" />
+``      </div>
       <div className="signup-form signUP ">
         <div className='container'>
           <Link className='link1' to="/">X</Link>

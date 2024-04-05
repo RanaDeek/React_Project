@@ -2,6 +2,7 @@ import React, { useContext, useEffect, useState } from 'react'
 import { UserContext } from '../Context/User'
 import './Profile.css'
 import axios from 'axios';
+import PIC from '../assets/6.jpg'
 
 export default function Profile() {
     const { userName } = useContext(UserContext);
@@ -34,8 +35,8 @@ export default function Profile() {
 
     return (
         <>
-            <div className="overlay " >
-                <img src={`${import.meta.env.VITE_PIC}`} alt="" />
+            <div className="overlay" >
+            <img src={PIC} alt="" />
             </div>
             <section >
                 <div className="container profile">

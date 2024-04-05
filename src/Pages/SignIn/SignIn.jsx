@@ -5,7 +5,7 @@ import { toast, Zoom } from 'react-toastify'
 import { Link, Navigate, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import { UserContext } from '../../Context/User';
-
+import PIC from '../../assets/6.jpg'
 function SignIn() {
   const Navigate = useNavigate();
   const { setUserToken } = useContext(UserContext);
@@ -88,7 +88,7 @@ function SignIn() {
   return (
     <>
       <div className="overlay " >
-        <img src={`${import.meta.env.VITE_PIC}`} alt="" />
+        <img src={PIC} alt="" />
       </div>
       <div className="signup-form signin">
         <div className='container'>
