@@ -88,8 +88,7 @@ function SignIn() {
   return (
     <>
       <div className="overlay " >
-        <img src="src/assets/6.jpg" alt="" />
-
+        <img src={`${import.meta.env.VITE_PIC}`} alt="" />
       </div>
       <div className="signup-form signin">
         <div className='container'>

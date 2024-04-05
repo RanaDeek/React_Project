@@ -112,7 +112,7 @@ function SignUp() {
   return (
     <>
       <div className="overlay " >
-        <img src="src/assets/6.jpg" alt="" />
+        <img src={`${import.meta.env.VITE_PIC}`} alt="" />
       </div>
       <div className="signup-form signUP ">
         <div className='container'>
@@ -142,7 +142,7 @@ function SignUp() {
             </div>
             <div className="form-row">
               <div className="form-group col-md-9">
-                <input type="text" className="form-control" placeholder="address" onChange={handleChange} value={user.address} name="address"/>
+                <input type="text" className="form-control" placeholder="address" onChange={handleChange} value={user.address} name="address" />
               </div>
             </div>
             <fieldset className="form-group">
