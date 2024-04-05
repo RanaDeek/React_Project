@@ -1,0 +1,213 @@
+.oppi {
+  margin-top: 1050px !important;
+}
+
+.line {
+  height: 1px !important;
+  background-color: rgb(184, 64, 24) !important;
+  margin: 10px 0;
+  border-top:0px  !important; ;
+  margin-bottom: -5px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  margin: 0; 
+}
+
+.header {
+  margin: 0; 
+  text-align: center;
+  width: 400px !important;
+}
+
+.loader {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  display: block;
+  margin: 15px auto;
+  position: relative;
+  background: #FFF;
+  box-shadow: -24px 0 #FFF, 24px 0 #FFF;
+  box-sizing: border-box;
+  animation: shadowPulse 2s linear infinite;
+}
+
+@keyframes shadowPulse {
+  33% {
+    background: #FFF;
+    box-shadow: -24px 0 #FF3D00, 24px 0 #FFF;
+  }
+
+  66% {
+    background: #FF3D00;
+    box-shadow: -24px 0 #FFF, 24px 0 #FFF;
+  }
+
+  100% {
+    background: #FFF;
+    box-shadow: -24px 0 #FFF, 24px 0 #FF3D00;
+  }
+}
+
+#app {
+  height: 100%;
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swipe {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px !important;
+  height: 150px;
+  top: 50px !important;
+  padding-top: 80px;
+  padding-bottom: 130px !important;
+}
+
+.swipe img {
+  display: block;
+  width: 100%;
+  height: 90%;
+  object-fit: cover;
+}
+
+.mySwiper1 {
+  width: 100%;
+  height: 250px;
+  margin: 20px auto;
+}
+
+.Desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  padding: 10px 0 0px 0;
+  flex-wrap: wrap;
+  padding-left: 20px !important;
+}
+
+.Desc p {
+  text-align: justify;
+  color: #59595A;
+  font-size: 14px;
+  width: 1000px;
+}
+
+.Benefits {
+  padding: 30px 10px 30px 10px;
+}
+
+.Benefits .row {
+  flex-direction: column;
+
+}
+
+.Benefits p {
+  color: #59595A;
+  font-size: 14px;
+  width: 600px;
+}
+
+.bene-left,
+.bene-right {
+  width: 90%;
+}
+
+.bene-up {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 50px;
+  align-items: stretch;
+  padding: 10px 0 20px 0;
+  flex-wrap: wrap;
+}
+
+.bene-up p {
+  width: 87%;
+}
+
+.bene-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #ccc8;
+  border-radius: 4px;
+  width: 150px;
+  height: 40px;
+  align-self: flex-end;
+}
+
+.bene-down {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.bene-item {
+  width: calc((100% - 10px)/3);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ccc;
+  padding: 10px;
+  height: 170px;
+
+}
+
+.bene-item h1,
+.bene-item a {
+  align-self: flex-end;
+  font-size: 30px;
+}
+
+.bene-item h2 {
+  font-size: 20px;
+}
+
+.bene-item img {
+  background-color: #bbb6;
+  border: 1px #bbb8 solid;
+}
+
+.bene-item p {
+  width: 100%;
+}
+
+.categories {
+  display: flex;
+  align-items: stretch;
+  padding-left: 20px !important;
+}
+
+.categories h1 {
+  font-size: 30px;
+
+}
+.all-benefit{
+  text-align: justify !important;
+}

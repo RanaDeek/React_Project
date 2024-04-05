@@ -1,0 +1,170 @@
+.signin h3 {
+    color: rgb(184, 64, 24);
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+width: 80% !important; 
+    height: 70% !important;
+    background-size: cover;
+    background-position: center;
+    z-index: 999;
+    filter: brightness(15%);
+}
+.email {
+    background-color: white; /* Set the background color for email and password inputs */
+  }
+.signin {
+    position: absolute;
+    display: flex;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 400px !important;
+    z-index: 1000;
+    transition: center 0.8s ease;
+    top: 25% !important;
+    left: 37%;
+    transition: left 0.3s ease !important;
+    padding: 15px;
+    border: 1px solid wheat;
+    color: wheat !important;
+    box-shadow: 0 4px 8px rgb(184, 64, 24);
+    filter: brightness(150%) !important;
+
+}
+
+
+input::placeholder {
+    color: rgb(184, 64, 24) !important;
+}
+.form-control {
+    display: block !important;
+    width: 105% !important;
+    border: none !important;
+    border-bottom: 2px solid wheat !important;
+    background-color: transparent !important;
+    padding: 5px 0 !important;
+    margin-bottom: 10px !important;
+    font-size: 12px !important;
+    color: wheat;
+}
+
+.form-control:focus {
+    outline: none !important;
+    outline-color: rgb(184, 64, 24) !important;
+    border-color: wheat !important;
+    background-color: transparent !important;
+    color: wheat !important;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.signup-form .link2 {
+    margin-bottom: -350px;
+    text-decoration: none;
+    color: black;
+}
+
+.signup-form form {
+    margin-left: 80px;
+
+}
+
+.signin {
+    height: 400px !important;
+}
+
+.signup-form button {
+    width: 80%;
+    border: 2px solid rgb(184, 64, 24);
+    color: rgb(184, 64, 24);
+    margin-bottom: 150px;
+}
+
+.signup-form button:hover {
+    border: 2px solid rgb(184, 64, 24);
+    background-color: rgb(184, 64, 24);
+    color: white;
+
+}
+
+.signup-form button:active {
+    border: 2px solid rgb(184, 64, 24) !important;
+    background-color: rgb(184, 64, 24) !important;
+    color: white !important;
+}
+
+
+.form-row1 {
+    width: 300px;
+
+}
+
+.signin .row2 {
+    margin-top: 320px;
+}
+
+.signin .form1 {
+    margin-top: -200px;
+}
+
+.signin .error2 {
+    margin-top: 100px;
+    color: red;
+    font-size: 5px;
+    font-weight: 500;
+    text-align: center;
+    margin-right: 40px;
+}
+
+.signin .form-check {
+    font-size: 10px;
+    margin-bottom: -5px !important;
+}
+
+.input-container {
+    position: relative;
+}
+
+
+.link2 {
+    align-self: flex-end;
+    text-decoration: none;
+    color: wheat !important;
+    ;
+
+}
+
+.form-group.col-md-9 p {
+    display: inline;
+    margin-right: 10px;
+    padding-left: 50px;
+}
+
+.form-group.col-md-9 .link3 {
+    text-decoration: none;
+    color: blue;
+}
+
+.link4 {
+    font-size: 10px !important;
+    font-weight: 400 !important;
+    padding-left: 80px;
+}
+.row2 h3{
+    padding-left: 25px  !important;
+}

@@ -1,0 +1,51 @@
+.secure {
+    display: flex;
+    /* Use flexbox */
+
+}
+
+.ima {
+    width: 200px !important;
+    height: 200px !important;
+    padding: 15px;
+    align-self: center;
+    align-items: center;
+    border-radius: 8px !important;
+
+}
+
+span {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(184, 64, 24);
+}
+
+.row {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center;
+}
+
+.d-block {
+    width: 500px;
+    height: 400px;
+}
+
+.carousel-control-next {
+    margin-right: 80px !important;
+}
+
+.carousel-control-prev {
+    margin-left: 20px !important;
+}
+.slide{
+    width: 40% !important;
+}
+.carousel-control-next, .carousel-control-prev{
+    width: 80px !important;
+}

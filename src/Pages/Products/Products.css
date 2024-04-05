@@ -1,0 +1,131 @@
+.product_list span {
+    font-weight: 500;
+    padding: 5px;
+}
+
+
+.product_name {
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(184, 64, 24);
+}
+
+.product {
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: -30px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease;
+    background-color: #e9e8e8;
+    background-color: transparent !important;;
+}
+
+.products {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px;
+
+}
+
+.product_image {
+    width: 300px;
+    height: 100px;
+    border-radius: 8px;
+    align-self: center;
+    padding: 5px;
+}
+
+.product .row1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 500;
+    gap: 5px;
+    padding-left: 25px;
+    margin-top:  -20px;
+
+}
+.price{
+    display: flex;
+    gap: 5px;
+    align-items: flex-end;
+    align-self: flex-start;
+}
+
+.row1 button {
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+.Carts {
+    width: 40px;
+    height: 35px;
+    padding-bottom: 10px;
+    align-self: flex-end;
+}
+
+.discounted-price {
+    color: red;
+}
+
+.original-price {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.original {
+    color: black;
+
+}
+body {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper {
+    width: 80%;
+    height: 50%;
+    
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    background-color: transparent !important;
+}
+.swiper-pagination-bullet {
+    padding: 8px;
+}
+
+
+.swiper-slide img {
+    display: block;
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+.detail-button {
+    text-decoration: none;
+    color: rgb(184, 64, 24);
+    padding: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+
+}

@@ -1,0 +1,52 @@
+.row3 {
+    color: rgb(184, 64, 24);
+    padding-top: 330px;
+}
+
+.signin2 {
+    height: 200px !important;
+    position: absolute;
+    display: flex;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 400px !important;
+    z-index: 1000;
+    transition: center 0.8s ease;
+    top: 30% !important;
+    left: 37%;
+    transition: left 0.3s ease !important;
+    padding: 15px;
+}
+
+.form2 {
+    margin-top: 0px !important;
+    margin-left: 65px !important;
+}
+
+.heights {
+    padding: 10px !important;
+    height: 350px !important;
+}
+
+.row2 {
+    padding: 25px !important;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80% !important;
+    height: 70% !important;
+    background-size: cover;
+    background-position: center;
+    z-index: 999;
+    filter: brightness(15%);
+}

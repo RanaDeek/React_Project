@@ -1,0 +1,160 @@
+.form-check-label {
+    margin-left: -2px;
+    width: 150px;
+    font-size: 12px;
+    margin-bottom: 10px !important;
+    color: rgb(184, 64, 24);
+}
+
+.gender {
+    margin-left: 40px;
+}
+
+.female {
+    margin-left: -100px;
+}
+
+input {
+    width: 250px;
+}
+
+.signup-form .form-control {
+    display: block !important;
+    width: 105% !important;
+    border: none !important;
+    border-bottom: 2px solid wheat !important;
+    background-color: transparent !important;
+    padding: 5px 0 !important;
+    margin-bottom: 10px !important;
+    font-size: 12px !important;
+    color: wheat;
+}
+
+.signup-form .form-control:focus {
+    outline: none !important;
+    outline-color: rgb(184, 64, 24) !important;
+    border-color: wheat !important;
+}
+
+h4 {
+    border: rgb(184, 64, 24);
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80% !important;
+    height: 70% !important;
+    z-index: 999;
+
+}
+
+.signUP {
+    position: relative;
+    display: flex;
+    border-radius: 5px;
+    z-index: 1000;
+    transition: center 0.8s ease;
+    top: 25%;
+    left: 35%;
+    width: 35%;
+    transition: left 0.3s ease !important;
+    transition: top 0.3s ease !important;
+    padding: 10px;
+    transition: top 0.3s ease;
+    border: 1px solid wheat;
+    box-shadow: 0 4px 8px rgb(184, 64, 24);
+    
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.link1 {
+    align-self: flex-end;
+    text-decoration: none;
+    color: rgb(184, 64, 24);
+}
+
+
+.signup-form p {
+    align-items: center;
+    align-self: center;
+}
+
+.signup-form .link1 {
+    text-decoration: none;
+    color: wheat;
+}
+
+.signup-form form {
+    margin-left: 80px;
+
+}
+
+.signup-form {
+    height: 600px;
+}
+
+.signup-form button {
+    width: 80%;
+    border: 2px solid rgb(184, 64, 24);
+    color: rgb(184, 64, 24);
+    margin-bottom: 150px;
+}
+
+.signup-form button:hover {
+    border: 2px solid rgb(184, 64, 24);
+    background-color: rgb(184, 64, 24);
+    color: white;
+
+}
+
+.signup-form button:active {
+    border: 2px solid rgb(184, 64, 24) !important;
+    background-color: rgb(184, 64, 24) !important;
+    color: white !important;
+}
+
+
+.signup-form p {
+    font-size: 10px;
+}
+
+.signup-form .error {
+    font-size: 5px;
+    color: red;
+    font-weight: 500;
+    margin-top: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: -100px;
+    color: wheat !important;
+}
+
+.signup-form .gender input {
+    margin-top: 5px !important;
+}
+
+.signup-form .Para1 {
+    margin-bottom: 100px;
+    color: wheat !important;
+}
+
+.form-select {
+    width: 300px !important;
+}

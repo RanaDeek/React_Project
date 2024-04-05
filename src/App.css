@@ -1,0 +1,56 @@
+.loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* Set the height of the container to full viewport height */
+}
+
+.loader {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: block;
+    margin: 15px auto;
+    position: relative;
+    color: rgb(184, 64, 24);
+    box-sizing: border-box;
+    animation: animloader 1s linear infinite alternate;
+}
+
+
+.loader::before,
+.loader::after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    left: 48px;
+    top: 0;
+    animation: fill 0.9s ease-in infinite alternate;
+}
+
+.loader::after {
+    left: auto;
+    right: 48px;
+    animation-duration: 1.1s;
+}
+
+@keyframes animloader {
+    0% {
+        box-shadow: -38px -12px, -14px 0, 14px 0, 38px 0;
+    }
+
+    33% {
+        box-shadow: -38px 0px, -14px -12px, 14px 0, 38px 0;
+    }
+
+    66% {
+        box-shadow: -38px 0px, -14px 0, 14px -12px, 38px 0;
+    }
+
+    100% {
+        box-shadow: -38px 0, -14px 0, 14px 0, 38px -12px;
+    }
+}
